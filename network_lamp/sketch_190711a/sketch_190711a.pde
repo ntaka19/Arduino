@@ -53,7 +53,7 @@ void draw(){
   int n = (lastTime + interval - millis())/1000;
   
   //create a color based on 3 values
-  c = color(peace, love, arduino);
+  c = color(love, peace, arduino);
   cs = "#"+hex(c,6); //send to arduino
   
   text("Arduino Networked lamp", 10, 40);
@@ -61,13 +61,13 @@ void draw(){
   text(feed,10,140);
   
   text("Next update in "+n + " seconds",10,450);
-  text("peace", 10, 200);
-  text(" " + peace, 130,200);
-  rect(200,172, peace ,28);
+  text("love", 10, 200);
+  text(" " + love, 130,200);
+  rect(200,172, love ,28);
   
-  text("love " , 10, 240);
-  text(" "+ love, 130,240);
-  rect(200,212,love,28);
+  text("peace " , 10, 240);
+  text(" "+ peace, 130,240);
+  rect(200,212,peace,28);
   
   text("arduino ", 10,280);
   text(" "+ arduino, 130,280);
