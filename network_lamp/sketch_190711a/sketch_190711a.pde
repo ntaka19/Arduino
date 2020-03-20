@@ -5,8 +5,8 @@ import java.io.*;
 import java.util.*;
 
 //String feed="https://blog.arduino.cc/feed/";
-//String feed="https://scheepersblog.com/2018/07/10/erich-fromm-love/";
-String feed = "https://programminginarduino.wordpress.com/2016/02/29/projecte-3/";
+String feed="https://scheepersblog.com/2018/07/10/erich-fromm-love/";
+//String feed = "https://programminginarduino.wordpress.com/2016/02/29/projecte-3/";
 
 int interval =5*60*1000;
 int lastTime;
